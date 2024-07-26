@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Superhero Quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="quiz">
+        <header>
+            <h1 id="h1"> Superhero Quiz</h1>
+        </header>
+        <div id="tracker">
+            <div class="num" id="num1"> 1 </div>
+            <div class="num" id="num2"> 2 </div>
+            <div class="num" id="num3"> 3 </div>
+            <div class="num" id="num4"> 4 </div>
+            <div class="num" id="num5"> 5 </div>
+            <div class="num" id="num6"> 6 </div>
+            <div class="num" id="num7"> 7 </div>
+            <div class="num" id="num8"> 8 </div>
+            <div class="num" id="num9"> 9 </div>
+            <div class="num" id="num10"> 10 </div>
+        </div>
+        <hr>
+
+        <div id="quizSet">
+            <p id="question"> Question 1 text </p>
+            <div id="options" class="options"></div>
+            <button id="btn1" class="button"><span id="option1">Option1</span></button>
+            <button id="btn2" class="button"><span id="option2">Option2</span></button>
+            <button id="btn3" class="button"><span id="option3">Option3</span></button>
+            <button id="btn4" class="button"><span id="option4">Option4</span></button>
+               
+                <button id="submit"> Next </button>
+        </div>
+
+        <div id="resultBox">
+            <p id="result">Result lines</p>
+            <button id="retake">Retake Test</button>
+
+        </div>
+        <hr>
+        <footer>
+            <p id="progress"> 1 of 10 questions </p>
+            <div id="timer"> Timer </div>
+
+        </footer>
+    </div>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
